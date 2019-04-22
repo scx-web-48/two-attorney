@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="25px" viewBox="0 0 123 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>成功案例</title>
+    <desc>Created with Sketch.</desc>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m.-首页" transform="translate(-127.000000, -1143.000000)">
+            <g id="成功案例" transform="translate(12.000000, 1138.000000)">
+                <g transform="translate(115.000000, 0.000000)">
+                    <polygon id="Rectangle" fill="#E60D11" opacity="0.201590402" points="32 26 92 26 92 30 32 30"></polygon>
+                    <text id="CLASSIC-CASE" opacity="0.101888021" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" letter-spacing="0.5333334" fill="#333333">
+                        <tspan x="0" y="17">CLASSIC CASE</tspan>
+                    </text>
+                    <text font-family="PingFangSC-Semibold, PingFang SC" font-size="22" font-weight="500" letter-spacing="0.7333333" fill="#333333">
+                        <tspan x="16" y="25">成功案例</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
