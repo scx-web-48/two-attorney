@@ -25,6 +25,7 @@ li {
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -32,9 +33,13 @@ a:hover {
 img {
     vertical-align: middle;
 }
-.col-lg-3, .col-lg-4, .container {
-    padding: 0!important;
+
+.col-lg-3,
+.col-lg-4,
+.container {
+    padding: 0 !important;
 }
+
 /* 公共样式 */
 .left {
     float: left;
@@ -43,24 +48,29 @@ img {
 .right {
     float: right;
 }
+
 .border-none {
-    border: 0px!important;
+    border: 0px !important;
 }
-        /* 分类标题样式 */
+
+/* 分类标题样式 */
 .classifyTit {
     margin-top: 80px;
     text-align: center;
     margin-bottom: 64px;
 }
+
 .classifyTit .topImg {
     width: 74px;
     height: 68px;
     margin-bottom: 20px;
 }
+
 .classifyTit .bottomImg {
     width: 356px;
     height: 70px;
 }
+
 /* 头部 */
 .nav {
     height: 142px;
@@ -113,4 +123,295 @@ img {
 .banner img {
     width: 100%;
     height: 100%;
+}
+
+/* 成功案例 */
+.case {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.case>div {
+    overflow: hidden;
+}
+
+.caseTop {
+    position: relative;
+    width: 1020px;
+    height: 174px;
+    background-color: #F6F6F6;
+    box-sizing: border-box;
+    padding-left: 62px;
+}
+
+.caseTop img {
+    position: absolute;
+    left: -180px;
+    top: 0;
+}
+
+.caseTop div,
+.caseList div {
+    margin: 20px 0 14px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #cccccc;
+}
+
+.caseTop h4,
+.caseList h4 {
+    font-size: 14px;
+    color: #2C363F;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.caseList div {
+    margin-top: 0 !important;
+}
+
+.caseTop p,
+.caseTop a,
+.caseList p,
+.caseList a {
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #8E9CA9;
+    line-height: 22px;
+}
+
+.caseList {
+    display: inline-block;
+    width: 480px;
+    /* height: 164px; */
+    margin-top: 36px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ececec;
+}
+
+.caseListMr {
+    margin-right: 186px;
+}
+
+.caseSee {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.caseSee a {
+    font-family: PingFangSC-Light;
+    font-size: 12px;
+    color: #8E9CA9;
+}
+
+/* 联系我们 */
+.relationWe {
+    width: 1920px;
+    height: 660px;
+    margin: 0 auto;
+    background: url(../img/联系我们-背景.png) no-repeat center;
+}
+
+.relationWeBox {
+    width: 1200px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.relationWeBox .fl {
+    float: left;
+    width: 730px;
+    height: 480px;
+    background-color: #fff;
+}
+
+.relationWeBox .fl h3 {
+    padding-top: 16px;
+    padding-bottom: 18px;
+    font-size: 26px;
+    color: #000000;
+    font-weight: 700;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.relationWeBox .fl h3 img {
+    width: 68px;
+    height: 68px;
+    margin-left: 30px;
+    margin-right: 16px;
+}
+
+.relationWeBox .fl h4 {
+    height: 58px;
+    line-height: 58px;
+    padding-left: 32px;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #2C363F;
+    font-weight: 700;
+}
+
+.relationWeBox .fl ul {
+    margin-left: 32px;
+}
+
+.relationWeBox .fl li {
+    float: left;
+}
+
+.relationWeBox .fl p {
+    font-size: 14px;
+    color: #8E9CA9;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.two-list {
+    margin-left: 58px;
+}
+
+.two-list dl {
+    float: left;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.two-list dl dd {
+    width: 100px;
+    height: 32px;
+}
+
+.two-list dl dd span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    margin-right: 4px;
+}
+
+.two-list dl dd a {
+    color: #627281;
+    font-size: 14px;
+}
+
+.relationWeBox .fr {
+    box-sizing: border-box;
+    width: 440px;
+    height: 480px;
+    float: right;
+    padding: 50px 30px 0;
+    background-color: #fff;
+}
+
+.relationWeBox input,
+.relationWeBox textarea {
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.relationWeBox textarea {
+    resize: none;
+    vertical-align: top;
+    height: 112px;
+}
+
+.relationWeBox .name input {
+    width: 200px;
+    padding-left: 12px;
+}
+
+.relationWeBox .name,
+.relationWeBox .phone {
+    padding-bottom: 8px;
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #627281;
+    text-align: justify;
+    line-height: 24px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.relationWeBox .phone {
+    margin-top: 40px;
+}
+
+.relationWeBox .describe {
+    margin-top: 40px;
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #627281;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+
+.relationWeBox .fr button {
+    width: 120px;
+    height: 40px;
+    background-color: #EA2734;
+    border: none;
+    outline: none;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.copyright {
+    margin: 0 auto;
+    width: 1920px;
+    height: 216px;
+    background-color: #262930;
+}
+
+.copyrightBox {
+    width: 1200px;
+    height: 156px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8F8F91;
+    overflow: hidden;
+}
+
+.copyrightBox .left>div {
+    float: left;
+}
+
+/* .copyrightBox .left>div img {
+    width: 80px;
+    height: 92px;
+} */
+.copyrightBox .left h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.copyrightBox .right {
+    width: 210px;
+    white-space: nowrap;
+}
+
+.copyrightBox .right img,
+.copyrightBox .right span {
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.copyright-text {
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 60px;
+    text-align: center;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #8F8F91;
 }
