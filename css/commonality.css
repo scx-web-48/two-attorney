@@ -8,7 +8,9 @@ h6,
 ul,
 li,
 p,
-body {
+body,
+dl,
+dd {
     margin: 0;
     padding: 0;
 }
@@ -36,7 +38,8 @@ img {
 
 .col-lg-3,
 .col-lg-4,
-.container {
+.container,
+.col-lg-8 {
     padding: 0 !important;
 }
 
@@ -231,8 +234,8 @@ img {
 }
 
 .relationWeBox .fl h3 {
-    padding-top: 16px;
-    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 12px;
     font-size: 26px;
     color: #000000;
     font-weight: 700;
@@ -240,13 +243,13 @@ img {
 }
 
 .relationWeBox .fl h3 img {
-    width: 68px;
-    height: 68px;
+    width: 50px;
+    height: 50px;
     margin-left: 30px;
     margin-right: 16px;
 }
 
-.relationWeBox .fl h4 {
+.relationWeBox .fl>h4 {
     height: 58px;
     line-height: 58px;
     padding-left: 32px;
@@ -256,29 +259,55 @@ img {
     font-weight: 700;
 }
 
-.relationWeBox .fl ul {
+.relationWeBox .fl ul,
+.officeList {
     margin-left: 32px;
+    margin-right: 32px;
 }
 
 .relationWeBox .fl li {
     float: left;
 }
 
-.relationWeBox .fl p {
+.relationWeBox .fl li p {
     font-size: 14px;
     color: #8E9CA9;
     font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.officeList div h4 {
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #2C363F;
+    font-weight: 600;
+    padding: 0;
+}
+
+.officeList div p {
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #8E9CA9;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.officeList div span {
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #8E9CA9;
 }
 
 .two-list {
-    margin-left: 58px;
+    margin-left: 30px;
 }
 
 .two-list dl {
     float: left;
     width: 100px;
-    margin-bottom: 20px;
 }
 
 .two-list dl dd {
@@ -298,6 +327,11 @@ img {
 .two-list dl dd a {
     color: #627281;
     font-size: 14px;
+}
+
+.relationWeBox .fl ul {
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .relationWeBox .fr {
@@ -366,7 +400,6 @@ img {
 .copyright {
     margin: 0 auto;
     width: 1920px;
-    height: 216px;
     background-color: #262930;
 }
 
