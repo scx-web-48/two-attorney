@@ -25,11 +25,16 @@ li {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: none;
+}
 
 img {
     vertical-align: middle;
 }
-
+.col-lg-3, .col-lg-4, .container {
+    padding: 0!important;
+}
 /* 公共样式 */
 .left {
     float: left;
@@ -78,7 +83,7 @@ img {
 .nav .right .phone {
     text-align: right;
     color: #627281;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-right: 34px;
 }
 
