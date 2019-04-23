@@ -349,6 +349,7 @@ img {
     color: #627281;
     border-bottom: 1px solid #e2e2e2;
     margin-bottom: 20px;
+    padding-bottom: 1px;
 }
 
 .relationWeBox .fr button {
