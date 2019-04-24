@@ -224,6 +224,70 @@ a {
     left: 0;
     right: 0;
     margin: auto;
-    bottom:36px;
+    bottom: 36px;
 }
+
 /* 案件代理流程end */
+/* 服务承诺 */
+.commitment {
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 620px;
+    background: url(../img/服务承诺背景.png) no-repeat top center;
+    /* background-size: 100% 620px; */
+}
+
+.commitmentBox {
+    width: 880px;
+    margin: 0 auto;
+    height: 440px;
+    border: 1px solid #eb2939;
+    border-top: 0;
+    position: relative;
+}
+
+.commitmentBox div {
+    position: absolute;
+    width: 320px;
+    height: 156px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.50);
+    border-radius: 4px;
+    line-height: 156px;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #2C363F;
+}
+
+.commitmentBox div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.commitmentBox .tt {
+    top: 0;
+}
+
+.commitmentBox .lOut {
+    left: -160px;
+}
+
+.commitmentBox .bOut {
+    bottom: -78px;
+}
+
+.commitmentBox .rOut {
+    right: -160px;
+}
+
+div .centerY {
+    top: 180px;
+}
+
+div .centerX {
+    left: 0;
+    right: 0;
+    margin: auto;
+}

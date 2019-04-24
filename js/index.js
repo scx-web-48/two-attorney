@@ -12,17 +12,22 @@ $(function () {
         // loopAdditionalSlides : 2,
         loopFillGroupWithBlank: true,
         centeredSlides: true,
-        // loop: true,
+        loop: true,
         slideToClickedSlide: false,
         snapOnRelease: false,
         navigation: {
             nextEl: '.swiper-btn-next',
             prevEl: '.swiper-btn-prev',
         },
-        scrollbar: {
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        //     dragSize: 300,
+        //     draggable: true,
+        // },
+        pagination: {
             el: '.swiper-scrollbar',
-            dragSize: 300,
-            draggable: true,
-        },
+            clickable: true,
+          },
       });
+      
 })
