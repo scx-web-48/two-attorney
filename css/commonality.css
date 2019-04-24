@@ -105,12 +105,12 @@ img {
     font-size: 22px;
 }
 
-.nav .right .navlist li {
+.navlist li {
     float: left;
     margin-right: 34px;
 }
 
-.nav .right .navlist li a {
+.navlist li a {
     font-family: PingFangSC-Light;
     font-size: 16px;
     color: #627281;

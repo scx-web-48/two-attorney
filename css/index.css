@@ -200,3 +200,69 @@
     margin: 0 auto;
     background: #EDEDED;
 }
+
+/* 导航 */
+/* .navlist > ul > li {
+    position: relative;
+} */
+
+.navlist > ul > li {
+    position: relative;
+    width: 88px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.navlist > ul > li:hover ul {
+    display: block;
+}
+
+.navlist > ul > li:hover {
+    border-bottom: 2px solid #E60012;
+    
+}
+
+.navlist > ul > li:hover > a {
+    color: #E60012;
+    font-weight: 700;
+}
+
+.navlist ul ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px 13px;
+    background-color: #E60012;
+    border-radius: 5px;
+    top: 42px;
+    display: none;
+}
+
+.navlist ul ul:after{
+    content: "";
+    border-top: solid 0px #00800000;
+    border-left: solid 10px #00800000;
+    border-right: solid 10px #00800000;
+    border-bottom: solid 10px #E60012;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 100%;
+}
+
+.navlist ul ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.navlist ul ul li a {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: block;
+}
