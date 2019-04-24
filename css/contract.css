@@ -69,7 +69,9 @@ a {
     justify-content: center;
 
 }
-
+.projectBox .active .content {
+    border-bottom: 8px solid #E60110;
+}
 .projectBox>ul>li {
     width: 310px;
     height: 300px;

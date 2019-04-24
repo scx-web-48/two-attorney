@@ -65,9 +65,10 @@
 }
 
 .contract-serve-box {
-    width: 1130px;
+    width: 1170px;
     margin: 0 auto;
     padding-top: 106px;
+    overflow: hidden;
 }
 
 .contract-serve-box>div {
@@ -85,6 +86,12 @@
     border-radius: 4px;
     position: relative;
     z-index: 1;
+    margin-right: 22px;
+}
+.contract-serve-box .active {
+    width: 236px;
+    height: 300px;
+    margin-right: 10px;
 }
 
 .contract-serve-list p {
@@ -114,9 +121,9 @@
 }
 .jiantou {
     height: 280px;
-    width: 88px;
+    width: 66px;
     line-height: 280px;
-    text-align: center;
+    /* text-align: center; */
 }
 .division {
     width: 100%;
@@ -124,7 +131,7 @@
 }
 .division>div {
     float: right;
-    width: 216px;
+    width: 290px;
     height: 110px;
     text-align: center;
     line-height: 110px;

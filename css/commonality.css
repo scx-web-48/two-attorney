@@ -69,9 +69,32 @@ img {
     margin-bottom: 20px;
 }
 
-.classifyTit .bottomImg {
-    width: 356px;
+.classifyTit div {
+    padding-top: 10px;
+    display: inline-block;
     height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.classifyTit div span {
+    position: relative;
+    font-family: PingFangSC-Medium;
+    font-size: 50px;
+    color: #EAEEF1;
+    opacity: 0.5;
+}
+
+.classifyTit div strong {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    font-family: PingFangSC-Medium;
+    font-size: 36px;
+    color: #2C363F;
 }
 
 /* 头部 */
@@ -127,6 +150,7 @@ img {
     width: 100%;
     height: 100%;
 }
+
 /* 律师介绍 */
 .lawyerSaid {
     position: relative;
@@ -135,6 +159,7 @@ img {
     margin-top: 200px;
     margin-bottom: 300px;
 }
+
 .redEdge {
     position: absolute;
     border: 1px solid #EA2734;
@@ -144,6 +169,7 @@ img {
     transform: translateX(-50%);
     top: -32px;
 }
+
 .lawyerSwiper {
     height: 600px;
     position: absolute;
@@ -151,12 +177,14 @@ img {
     top: -96px;
     overflow: hidden;
 }
+
 .swiper-container {
     width: 100%;
     height: 380px;
     overflow: visible;
     margin-top: 20px;
 }
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -176,37 +204,45 @@ img {
     align-items: center;
     transition: 300ms;
 }
-.swiper-slide:not(.swiper-slide-active){
+
+.swiper-slide:not(.swiper-slide-active) {
     transform: scale(0.67);
 }
-.swiper-scrollbar-drag  {
+
+.swiper-scrollbar-drag {
     background-color: #EA2734;
     height: 5px;
 }
+
 .swiper-scrollbar {
-    position: static!important;
+    position: static !important;
     width: 1000px;
     margin: 0 auto;
     height: 6px;
 }
+
 .swiper-scrollbar span {
-    position: static!important;
+    position: static !important;
     float: left;
     width: 16.666%;
-    border-radius: 0!important;
+    border-radius: 0 !important;
     height: 100%;
 }
+
 .swiper-scrollbar .swiper-pagination-bullet-active {
-    background-color:  #EA2734!important;
+    background-color: #EA2734 !important;
 }
+
 .thumbnail {
-    padding:16px 24px;
+    padding: 16px 24px;
     height: 380px;
     margin: 0;
     text-align: left;
     border: none;
-    box-shadow: 12px 30px 40px 0 rgba(155,155,155,0.20);;
+    box-shadow: 12px 30px 40px 0 rgba(155, 155, 155, 0.20);
+    ;
 }
+
 .caption p {
     font-size: 12px;
     color: #8E9CA9;
@@ -217,12 +253,14 @@ img {
     -webkit-line-clamp: 3;
     overflow: hidden;
 }
+
 .caption .name {
     font-size: 16px;
     color: #2C363F;
     text-align: justify;
     line-height: 24px;
 }
+
 .caption .position {
     font-family: PingFangSC-Regular;
     font-size: 10px;
@@ -231,6 +269,7 @@ img {
     line-height: 24px;
     margin-left: 10px;
 }
+
 .btn {
     width: 100px;
     margin: 20px auto;
